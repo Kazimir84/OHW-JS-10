@@ -1,0 +1,39 @@
+.textActive {
+    visibility: hidden;
+}
+a {
+    margin: 5px;
+}
+a:hover {
+    color: red;
+}
+.transform {
+    transform: translateX(-145px);
+    transition: 3000ms;
+}
+.transform2 {
+    transform: translateX(-705px) translateY(10px) rotate(90deg);
+    transition: 3000ms;
+    height: 70px;
+}
+li {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+li>button {
+    border: 1px solid;
+}
+li>button:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+
+}
+li>div {
+    margin: 5px;
+}
+.btn {
+
+}
